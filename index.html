@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      font-family: 'Hanken Grotesk', sans-serif;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution{
+      margin-top: 30px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="outer">
+      <div class="inner inner1">
+          <h2 class="c light" style="font-size: 20px;">Your Result</h2>
+          <div class="circle c">
+              <h2 class="c dark" style="font-size: 50px;">
+                76
+              </h2>
+              <h3 class="c light" style="font-size: 15px;">
+                of 100
+              </h3>
+          </div>
+          <div style="margin-top: 10px;">
+          <h2 class="c dark">
+            Great
+          </h2>
+          <p class="c  light" style="margin-top: 10px;">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+          </div>
+      </div>
+      <div class="inner inner2">
+        <h2 style="margin-bottom: 10px;">
+          Summary
+        </h2>
+        <div class="opt" style="background-color: hsl(0, 55%, 96%);">
+         <div style="flex-grow: 1;"><img src="/assets/images/icon-reaction.svg"></div> 
+         <div style="flex-grow: 4;"><h4 style="color: hsl(0, 100%, 67%);">Reaction</h4></div> 
+         <div style="display: flex; flex-direction: row;flex-grow: 1;">
+         <div style="font-weight: bold;">80</div> 
+         <div style="color:hsl(224, 30%, 27%);">/ 100</div>
+         </div>
+        </div>
+        <div class="opt" style="background-color:  hsl(40, 57%, 93%);" >
+          <div style="flex-grow: 1;"><img src="/assets/images/icon-memory.svg"></div>
+          <div style="flex-grow: 4;"><h4 style="color: hsl(39, 100%, 56%);">Memory</h4></div>
+          <div style="display: flex; flex-direction: row;flex-grow: 1;">
+            <div style="font-weight: bold;">92</div> 
+            <div style="color:hsl(224, 30%, 27%);">/ 100</div>
+            </div>
+        </div>
+        <div class="opt" style="background-color:  hsl(165, 60%, 92%);">
+          <div style="flex-grow: 1;"><img src="/assets/images/icon-verbal.svg"></div>
+          <div style="flex-grow: 4;"><h4 style="color: hsl(166, 100%, 37%);">Verbal</h4></div>
+          <div style="display: flex; flex-direction: row;flex-grow: 1;">
+            <div style="font-weight: bold;">61</div> 
+            <div style="color:hsl(224, 30%, 27%);">/ 100</div>
+            </div>
+        </div>
+        <div class="opt" style="background-color:  hsl(236, 70%, 96%);">
+          <div style="flex-grow: 1;"><img src="/assets/images/icon-visual.svg"></div> 
+          <div style="flex-grow: 4;"><h4 style="color: hsl(234, 85%, 45%);">Visual</h4></div>
+          <div style="display: flex; flex-direction: row;flex-grow: 1;">
+            <div style="font-weight: bold;">72</div> 
+            <div style="color:hsl(224, 30%, 27%);">/ 100</div>
+            </div>
+        </div>
+        <div>
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Prabhleen Kaur</a>.
+  </div>
+</body>
+</html>
